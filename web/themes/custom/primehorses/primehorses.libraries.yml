@@ -1,0 +1,29 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      css/bootstrap.css: {}
+    component:
+      css/lightbox.css: {}
+      css/style.css: {}
+
+classie:
+  version: VERSION
+  js:
+    js/classie.js: {}
+
+uisearch:
+  version: 1.0
+  js:
+    js/uisearch.js: {}
+    js/uisearch-integration.js: {}
+  dependencies:
+    - primehorses/classie
+
+slick-filter:
+  version: 1.0
+  js:
+    js/slick-filter/slick-filter.js: {attributes: {type: text/javascript}}
+  dependencies:
+    - core/drupal.ajax
+    - slick/slick

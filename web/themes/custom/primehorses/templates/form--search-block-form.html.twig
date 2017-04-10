@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Override theme implementation for a 'form' element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+<form{{ attributes.addClass('search-form', 'search-block-form') }}>
+  {# children #}
+  <input class="sb-search-input" name="Search" placeholder="Enter your search term..." id="search" required="">
+  <input class="sb-search-submit" type="submit" value="">
+  <span class="sb-icon-search"> </span>
+</form>
+
