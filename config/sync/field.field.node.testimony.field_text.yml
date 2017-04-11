@@ -1,0 +1,21 @@
+uuid: 6d5d4ded-9d8f-4102-96c3-9238fafdbafd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text
+    - node.type.testimony
+  module:
+    - text
+id: node.testimony.field_text
+field_name: field_text
+entity_type: node
+bundle: testimony
+label: Text
+description: 'Write the phrase'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

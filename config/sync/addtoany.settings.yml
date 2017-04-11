@@ -1,0 +1,10 @@
+buttons_size: 32
+additional_html: ''
+additional_css: '.a2a_svg { border-radius: 50% !important; }'
+additional_js: 'a2a_config.icon_color = "white, transparent";'
+universal_button: custom
+custom_universal_button: /themes/custom/primehorses/images/icons/icon-share.png
+universal_button_placement: before
+no_3p: true
+_core:
+  default_config_hash: 8aJF-FDdnrk-N2gLGWFQcLZIpuJZA0BE9NtgXTVJfVk

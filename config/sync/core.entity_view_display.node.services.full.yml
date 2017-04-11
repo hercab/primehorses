@@ -1,0 +1,24 @@
+uuid: 879e0330-c640-4d62-acbf-6131a3098274
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.services.body
+    - node.type.services
+  module:
+    - text
+    - user
+id: node.services.full
+targetEntityType: node
+bundle: services
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true

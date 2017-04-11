@@ -1,0 +1,15 @@
+uuid: 32265026-7644-4093-8c77-7d389fcc83d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: mc_300x300_
+label: mc(300x300)
+effects:
+  419c0d7a-87a4-425c-a4d2-e5ac9d9faf4e:
+    uuid: 419c0d7a-87a4-425c-a4d2-e5ac9d9faf4e
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: crop_products

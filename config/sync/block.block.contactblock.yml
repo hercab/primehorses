@@ -1,0 +1,38 @@
+uuid: d66d8ecc-8afe-4620-9a85-f6783de62ab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - contact_block
+    - system
+    - user
+  theme:
+    - primehorses
+id: contactblock
+theme: primehorses
+region: contact
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: Contact
+  provider: contact_block
+  label_display: visible
+  contact_form: feedback
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

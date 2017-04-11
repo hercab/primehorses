@@ -1,0 +1,38 @@
+uuid: 3287e604-8203-4624-9bd6-8e7baed15234
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplenews
+    - system
+    - user
+  theme:
+    - primehorses
+id: simplenewssubscription
+theme: primehorses
+region: subcontent
+weight: -9
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Simplenews subscription'
+  provider: simplenews
+  label_display: '0'
+  newsletters:
+    default: default
+  message: 'Subscribe to our newsletter'
+  unique_id: d8a52385-6e50-4d87-96d8-d7ad45311b60
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

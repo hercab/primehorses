@@ -1,0 +1,30 @@
+uuid: 3ee7755c-38ce-4be8-b61a-0f7406063e9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_views
+  module:
+    - system
+    - views
+  theme:
+    - primehorses
+id: views_block__news_views_block_2
+theme: primehorses
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:news_views-block_2'
+settings:
+  id: 'views_block:news_views-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

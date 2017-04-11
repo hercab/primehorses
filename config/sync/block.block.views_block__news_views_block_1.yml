@@ -1,0 +1,24 @@
+uuid: a1923463-dacc-4e7a-8b39-83db1f38a696
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_views
+  module:
+    - views
+  theme:
+    - primehorses
+id: views_block__news_views_block_1
+theme: primehorses
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:news_views-block_1'
+settings:
+  id: 'views_block:news_views-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
