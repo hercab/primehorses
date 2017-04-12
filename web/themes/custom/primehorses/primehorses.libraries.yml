@@ -23,7 +23,31 @@ uisearch:
 slick-filter:
   version: 1.0
   js:
-    js/slick-filter/slick-filter.js: {attributes: {type: text/javascript}}
+    js/slick-filter/slick-filter.js: {}
   dependencies:
     - core/drupal.ajax
     - slick/slick
+easing:
+  version: 1.1.2
+  js:
+    js/easing.js
+
+move-top:
+  version: VERSION
+  js:
+    js/move-top.js
+
+easing-integration:
+  version: VERSION
+  js:
+    js/easing-integration.js
+  dependencies:
+    - primehorses/easing
+    - primehorses/move-top
+
+bootstrap:
+  version: 3.3.4
+  js:
+    js/bootstrap.js
+  dependencies:
+    - core/jquery

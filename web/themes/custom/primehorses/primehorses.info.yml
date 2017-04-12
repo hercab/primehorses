@@ -5,7 +5,7 @@ package: customThemes
 core: 8.x
 libraries:
   - primehorses/global-styling
-  - primehorses/slick-filter
+  - primehorses/easing-integration
 
 base theme: stable
 
