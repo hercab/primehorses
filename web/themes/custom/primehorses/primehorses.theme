@@ -39,9 +39,9 @@ function primehorses_page_attachments_alter(array &$page) {
  */
 function primehorses_preprocess_page(array &$variables) {
 
- /* if($variables['is_front']){
+  if($variables['is_front']){
     $variables['#attached']['library'][] =  'primehorses/easing-integration';
-  } */
+  }
 }
 
 /**

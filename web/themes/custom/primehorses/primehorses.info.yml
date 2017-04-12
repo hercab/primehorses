@@ -5,7 +5,6 @@ package: customThemes
 core: 8.x
 libraries:
   - primehorses/global-styling
-  - primehorses/easing-integration
 
 base theme: stable
 

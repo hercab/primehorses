@@ -30,17 +30,17 @@ slick-filter:
 easing:
   version: 1.1.2
   js:
-    js/easing.js
+    js/easing.js: {}
 
 move-top:
   version: VERSION
   js:
-    js/move-top.js
+    js/move-top.js: {}
 
 easing-integration:
   version: VERSION
   js:
-    js/easing-integration.js
+    js/easing-integration.js: {}
   dependencies:
     - primehorses/easing
     - primehorses/move-top
@@ -48,6 +48,6 @@ easing-integration:
 bootstrap:
   version: 3.3.4
   js:
-    js/bootstrap.js
+    js/bootstrap.js: {}
   dependencies:
     - core/jquery
