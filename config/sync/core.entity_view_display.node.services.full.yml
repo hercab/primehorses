@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.services.body
+    - field.field.node.services.field_icon
     - node.type.services
   module:
     - text
@@ -14,11 +15,16 @@ targetEntityType: node
 bundle: services
 mode: full
 content:
+  addtoany:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 0
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_icon: true
   links: true

@@ -1,0 +1,30 @@
+uuid: ef0eab59-0cbf-4f1a-8c2f-fb5280a76baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.about_us
+  module:
+    - system
+    - views
+  theme:
+    - primehorses
+id: views_block__about_us_block_1
+theme: primehorses
+region: about
+weight: 0
+provider: null
+plugin: 'views_block:about_us-block_1'
+settings:
+  id: 'views_block:about_us-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

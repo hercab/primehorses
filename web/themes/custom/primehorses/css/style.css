@@ -462,6 +462,9 @@ nav.navbar.navbar-default {
 .about,.news-info,.services,.skills{
 	padding:6em 0;
 }
+#block-views-block-about-us-block-1 .views-field-body{
+    margin-bottom: 20px;
+}
 h3.title {
     font-size: 4em;
     text-align: center;
@@ -498,22 +501,21 @@ p {
 .about .more {
     text-align: center;
 }
+.about .more a:hover {
+    color: #004a93;
+    font-weight: bold;
+}
 /*--//about--*/
 /*--news--*/
-.news{
-    
-}
-.news-info {
-    
-}
+
 #block-views-block-news-views-block-2 .slick__slide {
 	overflow: hidden;
 	display: block;
 }
-#block-views-block-news-views-block-2 .slide__caption h4 {
+#block-views-block-news-views-block-2 .captn-top h4 {
     color: #004a93;
-    font-size: 2.1em;
-    margin-top: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
 }
 #block-views-block-news-views-block-2 .slide__caption p {
     font-size: 1em;
@@ -540,7 +542,14 @@ p {
     top: unset;
 }
 .captn-top {
-    padding: 10% 10%;
+    padding: 6%;
+}
+.captn-top .body {
+    padding: 0 4%;
+}
+.captn-top > span,
+.services-right span{
+    float: right;
 }
 #block-views-block-news-views-block-2 .slick__slide:hover .slide__caption {
 	width: 100%;
@@ -549,11 +558,10 @@ p {
 img.img-responsive {
     width: 100%;
 }
-#block-views-block-news-views-block-2 .slide__caption .more a {
-  background: #004a93 none repeat scroll 0 0;
-  border: 2px solid #004a93;
-  color: #fff;
-  
+#block-views-block-news-views-block-2 .captn-top span a,
+.services-right span a{
+  color: #004a93;
+  font-weight: 600;
 }
 #block-views-block-news-views-block-2 .slide__caption .more a:hover {
   background: transparent none repeat scroll 0 0;
@@ -680,8 +688,9 @@ span.glyphicon {
     width: 73%;
 }
 .services-right h4 {
-    font-size: 1.5em;
-    color: #333;
+    color: #004a93;
+    font-size: 1.3em;
+    font-weight: bold;
     margin-bottom: 0.5em;
 }
 .services-grids:hover .services-left {
@@ -784,7 +793,7 @@ h2.resp-accordion {
 .portfolio-grids img.img-responsive {
     width: 100%;
 }
-.b-wrapper {
+#slick-views-tiles-list-block-1-2 .slide__caption {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 100%;
@@ -800,36 +809,51 @@ h2.resp-accordion {
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
 }
-.portfolio-grids:hover .b-wrapper{
+#slick-views-tiles-list-block-1-2 .slide__caption .icon-zoom{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-zoom-container{
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.addtoany-container{
+   clear: both;
+    margin-bottom: 20px;
+}
+#slick-views-tiles-list-block-1-2 .slick__slide:hover .slide__caption{
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
     transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 }
-.b-wrapper h5 {
-    font-size: 3.5em;
+.icon-zoom a {
+    font-size: 2.5em;
     color: #fff;
     text-align: center;
-    padding: 43% 0;
     font-weight: 200;
 }
-img.zoom-img{
+.icon-zoom a:hover{
+    color: #fff;
+}
+#slick-views-tiles-list-block-1-2-slider .slick__slide .slide__media img.media__image{
 	-webkit-transform: scale(1, 1);
     transform: scale(1, 1);
 	-moz-transform: scale(1, 1);
 	-ms-transform: scale(1, 1);
 	-o-transform: scale(1, 1);
-	transition-timing-function: ease-out;
-	-webkit-transition-timing-function: ease-out;
-	-moz-transition-timing-function: ease-out;
-	-ms-transition-timing-function: ease-out;
-	-o-transition-timing-function: ease-out;
-	-webkit-transition-duration: 2s !important;
-	-moz-transition-duration: 2s !important;
-	transition-duration: 2s !important;
+    transition    : all 0.8s ease-in-out;
+    -o-transition       : all 0.8s ease-in-out;
+    -moz-transition     : all 0.8s ease-in-out;
+    -webkit-transition  : all 0.8s ease-in-out;
+
+
 }
-img.zoom-img:hover,.portfolio-grids:hover img.zoom-img{
+#slick-views-tiles-list-block-1-2-slider .slick__slide:hover .slide__media img.media__image{
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -838,33 +862,25 @@ img.zoom-img:hover,.portfolio-grids:hover img.zoom-img{
 	overflow: hidden;
 }
 
-.addtoany_list.a2a_kit_size_32 > a{
-    height: 32px;
-    padding: 0;
-    width: 32px;
-    float: left;
+#slick-views-tiles-list-block-1-2-slider .slick__slide .addtoany_list.a2a_kit_size_32{
+    position: absolute;
+    bottom: 10px;
 }
 
 div.icon-info{
     background: rgba(0, 0, 0, 0) url("/themes/custom/primehorses/images/icons/icon-info.png") no-repeat scroll center center / contain ;
-    float: left;
+    bottom: 10px;
     height: 32px;
+    position: absolute;
+    right: 10px;
     width: 32px;
-    margin-right: 15px;
 }
 div.icon-info > a{
     display: inline-block;
     height: 100%;
     width: 100%;
 }
-.portfolio .icon-zoom {
-    float: right;
-    height: 32px;
-    width: 32px;
-}
-.portfolio .sb-icon-search {
-    color: #fff;
-}
+
 
 /*--//portfolio--*/
 /* SUBCONTENT REGION  */
@@ -932,6 +948,10 @@ div#block-simplenewssubscription{
     margin: 0 auto;
     width: 73%;
 }
+.slick-arrow::before{
+    color: #004a93;
+    font-size: 3rem;
+}
 /*--//partners--*/
 
 /*--testimonios--*/
@@ -945,7 +965,7 @@ div#block-simplenewssubscription{
 	position: relative;
 }
 #block-views-block-testimony-slider-block-1 .slick--view--testimony-slider{
-    padding: 7em 0;
+    padding: 2em 0;
 }
 .foto{
     display: inline-block;
@@ -1725,6 +1745,7 @@ h3.title:before {
 .captn-top {
     padding: 29% 6%;
 }
+
 span.glyphicon {
     font-size: 2em;
 }
