@@ -60,7 +60,7 @@ display:
         options:
           vanilla: false
           optionset: for_partners_slider
-          skin: ''
+          skin: default
           layout: below
           caption:
             title: title

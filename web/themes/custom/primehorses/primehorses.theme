@@ -180,3 +180,8 @@ function primehorses_form_contact_message_feedback_form_alter (&$form, &$form_st
   $form['mail']['#attributes']['placeholder'][] = t('Email');
 
 }
+function primehorses_form_user_login_form_alter (&$form, &$form_state){
+  $form['name']['#attributes']['placeholder'][] = t('Username');
+  $form['pass']['#attributes']['placeholder'][] = t('Password');
+
+}

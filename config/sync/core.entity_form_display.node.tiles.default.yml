@@ -6,12 +6,10 @@ dependencies:
     - field.field.node.tiles.field_category
     - field.field.node.tiles.field_tile_full
     - field.field.node.tiles.field_tile_preview
-    - image.style.medium
     - image.style.thumbnail
     - node.type.tiles
   module:
     - image
-    - image_widget_crop
     - path
 id: node.tiles.default
 targetEntityType: node
@@ -35,22 +33,16 @@ content:
     type: image_image
     weight: 2
     settings:
+      preview_image_style: medium
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
   field_tile_preview:
     weight: 1
     settings:
-      show_default_crop: true
-      warn_multiple_usages: true
-      preview_image_style: medium
-      crop_preview_image_style: crop_thumbnail
-      crop_list:
-        - crop_products
+      preview_image_style: thumbnail
       progress_indicator: throbber
-      show_crop_area: false
     third_party_settings: {  }
-    type: image_widget_crop
+    type: image_image
   path:
     type: path
     weight: 7

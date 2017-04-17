@@ -12,7 +12,7 @@ name: grid_tiles
 label: grid-tiles
 weight: -10
 group: ''
-skin: ''
+skin: default
 breakpoints: 0
 optimized: false
 options:
@@ -51,7 +51,7 @@ options:
     slidesPerRow: 5
     slide: ''
     slidesToShow: 5
-    slidesToScroll: 5
+    slidesToScroll: 4
     speed: 500
     swipe: true
     swipeToSlide: false

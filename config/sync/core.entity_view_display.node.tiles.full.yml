@@ -35,10 +35,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: crop_300x300_
+      image_style: medium
       image_zoom_style: mouseover
       image_touchscreen_compatible: '1'
-      image_magnify: '1'
+      image_magnify: '2'
       image_fade_duration: '120'
     third_party_settings: {  }
   links:

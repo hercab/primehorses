@@ -64,7 +64,7 @@ display:
         options:
           vanilla: false
           optionset: default
-          skin: ''
+          skin: default
           layout: below
           caption:
             title: title

@@ -449,13 +449,13 @@ display:
         options:
           vanilla: true
           optionset: default
-          skin: ''
+          skin: default
           layout: ''
           caption:
             title: '0'
             body: '0'
             path: '0'
-            nothing: '0'
+            view_node: '0'
           optionset_thumbnail: ''
           skin_thumbnail: ''
           thumbnail_caption: ''
