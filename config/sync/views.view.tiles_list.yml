@@ -100,7 +100,7 @@ display:
             mouseWheel: '0'
             randomize: '0'
           cache: 0
-          current_view_mode: block_1
+          current_view_mode: tiles_slider
       row:
         type: fields
         options:
@@ -717,9 +717,9 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_tile_preview'
-  block_1:
+  tiles_slider:
     display_plugin: block
-    id: block_1
+    id: tiles_slider
     display_title: Block
     position: 1
     display_options:

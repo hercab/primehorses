@@ -66,6 +66,9 @@ function primehorses_theme_suggestions_node_alter(array &$suggestions, array $va
  * Implements hook_preprocess_HOOK() for Block document templates.
  */
 function primehorses_preprocess_block(array &$variables) {
+  if ($variables['plugin_id'] == 'system_menu_block:main') {
+    $variables['attributes']['class'][] = 'navbar-collapse navbar-right collapse';
+  }
 
 }
 
