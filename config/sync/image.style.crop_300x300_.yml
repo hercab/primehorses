@@ -5,11 +5,10 @@ dependencies: {  }
 name: crop_300x300_
 label: crop(300x300)
 effects:
-  01530fe4-7364-4bdf-a82d-0e49f27e36c1:
-    uuid: 01530fe4-7364-4bdf-a82d-0e49f27e36c1
-    id: image_crop
-    weight: 1
+  97d7b722-e442-432c-9442-a57a88835eec:
+    uuid: 97d7b722-e442-432c-9442-a57a88835eec
+    id: image_scale_and_crop
+    weight: 2
     data:
-      width: 300
-      height: 300
-      anchor: center-center
+      width: 320
+      height: 240

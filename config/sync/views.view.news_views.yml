@@ -924,10 +924,13 @@ display:
             caption:
               title: '0'
               alt: '0'
-            image_style: ''
+            image_style: crop_300x300_
             thumbnail_style: ''
             media_switch: ''
             ratio: ''
+            box_style: ''
+            box_caption: ''
+            box_caption_custom: ''
             sizes: ''
             breakpoints:
               xs:

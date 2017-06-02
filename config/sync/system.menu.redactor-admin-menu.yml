@@ -1,0 +1,8 @@
+uuid: 913b4bd0-601b-40bc-b541-27b10db303d3
+langcode: en
+status: true
+dependencies: {  }
+id: redactor-admin-menu
+label: 'Redactor Admin Menu'
+description: 'Administration menu for redactor role'
+locked: false

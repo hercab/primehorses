@@ -1,17 +1,17 @@
-uuid: 166d3edd-dfba-45f4-a025-9a7fecb427fd
+uuid: 226b73b4-38aa-4112-9e69-dd37c0dce53b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - primehorses
+    - adminimal_theme
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: primehorses_content
-theme: primehorses
-region: banner
-weight: -10
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
+id: adminimal_theme_content
+theme: adminimal_theme
+region: content
+weight: 0
 provider: null
 plugin: system_main_block
 settings:

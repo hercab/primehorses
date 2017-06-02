@@ -687,7 +687,16 @@ display:
       title: Products
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        messages:
+          id: messages
+          table: views
+          field: messages
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          plugin_id: messages
       relationships:
         field_category:
           id: field_category
