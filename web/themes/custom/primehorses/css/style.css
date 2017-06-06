@@ -339,6 +339,21 @@ nav.navbar.navbar-default {
     font-size: 1em;
     font-weight: 400;
 }
+article.node-article-full{
+    margin: 30px;
+}
+
+article.node-article-full .content > div:first-child {
+    float: left;
+    margin-right: 50px;
+}
+article.node-article-full .content > div:nth-child(2){
+    width: 100%;
+    text-align: justify;
+}
+article.node-article-full .content > span{
+    margin-top: 50px;
+}
 /*--//banner-modal--*/
 /*--Slider Part starts Here--*/
 #slider2,

@@ -13,10 +13,10 @@ label: 'for about'
 weight: -10
 group: ''
 skin: default
-breakpoints: 0
+breakpoints: 2
 optimized: false
 options:
-  options__active_tab: edit-options-settings
+  options__active_tab: edit-options-responsives
   settings:
     mobileFirst: false
     asNavFor: ''
@@ -42,7 +42,7 @@ options:
     focusOnSelect: false
     infinite: true
     initialSlide: 0
-    lazyLoad: blazy
+    lazyLoad: ''
     mouseWheel: false
     randomize: false
     respondTo: window
@@ -68,3 +68,71 @@ options:
     vertical: false
     verticalSwiping: false
     waitForAnimate: true
+  responsives:
+    responsive:
+      -
+        breakpoint: 980
+        unslick: false
+        settings:
+          adaptiveHeight: false
+          autoplay: false
+          autoplaySpeed: 3000
+          pauseOnHover: false
+          pauseOnDotsHover: false
+          arrows: true
+          centerMode: true
+          centerPadding: 50px
+          dots: false
+          draggable: false
+          fade: false
+          focusOnSelect: false
+          infinite: true
+          initialSlide: 0
+          respondTo: window
+          rows: 1
+          slidesPerRow: 1
+          slidesToShow: 3
+          slidesToScroll: 1
+          speed: 500
+          swipe: false
+          swipeToSlide: false
+          edgeFriction: 0.35
+          touchMove: false
+          touchThreshold: 5
+          variableWidth: false
+          vertical: false
+          verticalSwiping: false
+          waitForAnimate: true
+      -
+        breakpoint: 480
+        unslick: false
+        settings:
+          adaptiveHeight: false
+          autoplay: false
+          autoplaySpeed: 3000
+          pauseOnHover: false
+          pauseOnDotsHover: false
+          arrows: true
+          centerMode: true
+          centerPadding: 50px
+          dots: false
+          draggable: false
+          fade: false
+          focusOnSelect: false
+          infinite: false
+          initialSlide: 0
+          respondTo: window
+          rows: 1
+          slidesPerRow: 1
+          slidesToShow: 2
+          slidesToScroll: 1
+          speed: 500
+          swipe: false
+          swipeToSlide: false
+          edgeFriction: 0.35
+          touchMove: false
+          touchThreshold: 5
+          variableWidth: false
+          vertical: false
+          verticalSwiping: false
+          waitForAnimate: true
