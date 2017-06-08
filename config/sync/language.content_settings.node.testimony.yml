@@ -1,0 +1,16 @@
+uuid: bf149c45-7d1f-4ef2-a55c-61d2881b5310
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.testimony
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.testimony
+target_entity_type_id: node
+target_bundle: testimony
+default_langcode: site_default
+language_alterable: true

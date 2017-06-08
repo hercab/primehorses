@@ -1,0 +1,22 @@
+uuid: 4f3e60af-81c3-47e1-8875-a7da1c20599a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.partners
+id: node.partners.status
+field_name: status
+entity_type: node
+bundle: partners
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
