@@ -6,6 +6,7 @@ module:
   automated_cron: 0
   better_exposed_filters: 0
   blazy: 0
+  blazy_ui: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -16,6 +17,7 @@ module:
   colorbox_load: 0
   comment: 0
   config: 0
+  config_translation: 0
   contact: 0
   contact_block: 0
   contextual: 0
@@ -33,7 +35,9 @@ module:
   image: 0
   image_widget_crop: 0
   imagefield_zoom: 0
+  language: 0
   link: 0
+  locale: 0
   menu_ui: 0
   ng_lightbox: 0
   node: 0
@@ -59,6 +63,7 @@ module:
   user: 0
   views_ui: 0
   menu_link_content: 1
+  content_translation: 10
   views: 10
   empty_page: 1000
   standard: 1000
@@ -71,3 +76,4 @@ theme:
   adminimal_theme: 0
 _core:
   default_config_hash: m2GVq11UAOVuNgj8x0t5fMOPujpvQQ_zxLoaly1BMEU
+langcode: zh-hans

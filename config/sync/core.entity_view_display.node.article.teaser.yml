@@ -1,5 +1,5 @@
 uuid: 0a2f3322-4e6c-4345-bcd4-7171ee5cfb38
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -36,3 +36,4 @@ content:
 hidden:
   field_image: true
   field_tags: true
+  langcode: true

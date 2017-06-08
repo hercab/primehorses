@@ -22,3 +22,4 @@ hidden:
   field_perfil: true
   field_photo: true
   field_text: true
+  langcode: true

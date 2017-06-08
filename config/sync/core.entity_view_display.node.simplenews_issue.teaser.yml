@@ -26,5 +26,6 @@ content:
     label: hidden
 hidden:
   addtoany: true
+  langcode: true
   links: true
   simplenews_issue: true

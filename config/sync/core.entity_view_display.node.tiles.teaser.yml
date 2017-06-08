@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.tiles.field_category
     - field.field.node.tiles.field_tile_full
     - field.field.node.tiles.field_tile_preview
     - node.type.tiles
@@ -17,5 +18,8 @@ content:
   links:
     weight: 100
 hidden:
+  addtoany: true
+  field_category: true
   field_tile_full: true
   field_tile_preview: true
+  langcode: true

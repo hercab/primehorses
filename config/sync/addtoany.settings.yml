@@ -8,3 +8,4 @@ universal_button_placement: after
 no_3p: true
 _core:
   default_config_hash: 8aJF-FDdnrk-N2gLGWFQcLZIpuJZA0BE9NtgXTVJfVk
+langcode: zh-hans

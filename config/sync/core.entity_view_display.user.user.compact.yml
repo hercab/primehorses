@@ -1,5 +1,5 @@
 uuid: 5ef17bd8-31a5-4437-b773-d39532115b3d
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -25,4 +25,6 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  langcode: true
   member_for: true
+  simplenews: true

@@ -1,12 +1,19 @@
 uuid: 2a438488-0b51-43f9-8f89-14632f96d0ad
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
     - node.type.article
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 _core:
   default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
 id: node.article.field_image

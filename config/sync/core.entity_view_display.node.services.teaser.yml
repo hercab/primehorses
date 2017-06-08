@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.services.body
+    - field.field.node.services.field_icon
     - node.type.services
   module:
     - text
@@ -25,4 +26,7 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  addtoany: true
+  field_icon: true
+  langcode: true

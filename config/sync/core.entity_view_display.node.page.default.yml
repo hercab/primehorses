@@ -1,5 +1,5 @@
 uuid: 06957381-6d95-4581-a2cb-9ded2d8c9282
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -39,4 +39,5 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

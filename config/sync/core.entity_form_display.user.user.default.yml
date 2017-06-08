@@ -1,5 +1,5 @@
 uuid: 06b8a82a-9d76-4431-bcef-fabcd94367a7
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -21,6 +21,8 @@ content:
     weight: 5
   language:
     weight: 0
+  simplenews:
+    weight: 5
   timezone:
     weight: 6
   user_picture:
@@ -30,4 +32,5 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     weight: -1
-hidden: {  }
+hidden:
+  langcode: true

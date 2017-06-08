@@ -1,5 +1,5 @@
 uuid: 874c569c-360c-458a-82be-e54145940426
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -22,6 +22,11 @@ content:
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
     third_party_settings: {  }
   subject:
     type: string_textfield

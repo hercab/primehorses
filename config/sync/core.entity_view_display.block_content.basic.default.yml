@@ -1,5 +1,5 @@
 uuid: 21892792-e167-416c-b4c5-752cac970aa2
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -21,4 +21,5 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

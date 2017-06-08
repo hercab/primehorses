@@ -1,5 +1,5 @@
 uuid: ced11a89-7c34-4ccf-b415-6e22d1fd2922
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -42,6 +42,11 @@ content:
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
     settings: {  }
     third_party_settings: {  }
   path:

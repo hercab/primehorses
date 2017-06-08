@@ -1,5 +1,5 @@
 uuid: 92b328f4-9543-43ff-947c-cabd529e81d1
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -38,6 +38,11 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
     weight: 30

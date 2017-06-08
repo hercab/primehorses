@@ -18,6 +18,11 @@ content:
       placeholder: Phone
     third_party_settings: {  }
     type: telephone_default
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
   mail:
     weight: 1
     settings: {  }
