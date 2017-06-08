@@ -339,10 +339,6 @@ nav.navbar.navbar-default {
     font-size: 1em;
     font-weight: 400;
 }
-article.node-article-full{
-    margin: 30px;
-}
-
 article.node-article-full .content > div:first-child {
     float: left;
     margin-right: 50px;
@@ -351,9 +347,28 @@ article.node-article-full .content > div:nth-child(2){
     width: 100%;
     text-align: justify;
 }
-article.node-article-full .content > span{
-    margin-top: 50px;
+article  span.addtoany_list{
+    margin-top: 20px;
+    display: inline-block;
 }
+
+article[about="/about"] h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#colorbox article h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+article[about="/about"] p{
+    text-align: justify;
+}
+#colorbox article{
+   margin: 30px;
+}
+
+
 /*--//banner-modal--*/
 /*--Slider Part starts Here--*/
 #slider2,

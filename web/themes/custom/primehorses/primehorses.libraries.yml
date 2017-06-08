@@ -7,6 +7,13 @@ global-styling:
       css/lightbox.css: {}
       css/style.css: {}
 
+global-script:
+  version: 1.0
+  js:
+    js/primehorses.js: {}
+  dependencies:
+    - colorbox/colorbox
+
 classie:
   version: VERSION
   js:

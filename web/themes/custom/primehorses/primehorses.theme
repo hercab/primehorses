@@ -41,6 +41,7 @@ function primehorses_preprocess_page(array &$variables) {
 
   if($variables['is_front']){
     $variables['#attached']['library'][] =  'primehorses/easing-integration';
+
   }
 }
 
