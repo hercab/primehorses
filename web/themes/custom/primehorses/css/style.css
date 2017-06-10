@@ -175,9 +175,8 @@ nav.navbar.navbar-default {
 /*--//top-nav--*/
 /*--start search--*/
 .sb-search {
-    /**position: absolute;
-    right: 0; */
-    float: right;
+    position: absolute;
+    right: 0;
     top: -5px;
     width: 32px;
     margin: 0;
