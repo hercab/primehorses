@@ -175,8 +175,9 @@ nav.navbar.navbar-default {
 /*--//top-nav--*/
 /*--start search--*/
 .sb-search {
-    position: absolute;
-    right: 0;
+    /**position: absolute;
+    right: 0; */
+    float: right;
     top: -5px;
     width: 32px;
     margin: 0;
@@ -186,6 +187,9 @@ nav.navbar.navbar-default {
     -moz-transition: width 0.3s;
     transition: width 0.3s;
     -webkit-backface-visibility: hidden;
+}
+.language-switcher-language-url.contextual-region{
+    float: right;
 }
 .sb-search-input {
     position: absolute;
@@ -267,7 +271,7 @@ nav.navbar.navbar-default {
 /*--//header--*/
 /*--banner--*/
 .banner {
-    background: url(../images/banner.jpg)no-repeat center 0px;
+    background: url(../images/banner.jpg)no-repeat fixed center 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size: cover;
@@ -352,7 +356,7 @@ article  span.addtoany_list{
     display: inline-block;
 }
 
-article[about="/about"] h4{
+article h4{
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -361,7 +365,7 @@ article[about="/about"] h4{
     margin-bottom: 20px;
     text-align: center;
 }
-article[about="/about"] p{
+article p{
     text-align: justify;
 }
 #colorbox article{
@@ -1035,7 +1039,7 @@ div#block-simplenewssubscription{
 /*--testimonios--*/
 
 #block-views-block-testimony-slider-block-1 {
-    background: url(../images/slid/slid.jpg)no-repeat center 0px;
+    background: url(../images/slid/1.jpg)no-repeat fixed center 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size: cover;
@@ -1071,7 +1075,7 @@ div#block-simplenewssubscription{
 
 /*--contact--*/
 #contact{
-    background: url(../images/slid/slid.jpg)no-repeat center 0px fixed;
+    background: url(../images/slid/2.jpg)no-repeat center 0px fixed;
     background-size: cover;
     color: #fff;
 }
@@ -1284,7 +1288,7 @@ div#block-simplenewssubscription{
 }
 @media(max-width:1366px){
 .banner-text {
-    padding: 13em 0;
+    padding: 8em 0;
     text-align: center;
 }
 .banner-text h2, .banner-text h3 {
