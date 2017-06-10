@@ -751,6 +751,9 @@ span.glyphicon {
 .portfolio-grids {
     padding: 0;
 }
+#slick-views-tiles-list-tiles-slider-2-slider .slick-list{
+    height: 485px;
+}
 /*--SAP--*/
 
 .btn-primary {
