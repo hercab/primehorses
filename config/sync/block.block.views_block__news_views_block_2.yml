@@ -1,11 +1,10 @@
-uuid: 3ee7755c-38ce-4be8-b61a-0f7406063e9e
-langcode: en
+uuid: 06620c65-2106-4c53-bbde-0cdf6d270f5e
+langcode: zh-hans
 status: true
 dependencies:
   config:
     - views.view.news_views
   module:
-    - system
     - views
   theme:
     - primehorses
@@ -22,9 +21,4 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
+visibility: {  }

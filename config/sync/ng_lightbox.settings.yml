@@ -1,5 +1,5 @@
-patterns: "/node/*\r\n/about"
-default_width: 540
+patterns: "/*/node/*\r\n/*/about\r\n/node/*"
+default_width: 420
 lightbox_class: ''
 skip_admin_paths: true
 renderer: drupal_colorbox

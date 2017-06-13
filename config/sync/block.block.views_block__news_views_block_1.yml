@@ -1,18 +1,17 @@
-uuid: a1923463-dacc-4e7a-8b39-83db1f38a696
-langcode: en
+uuid: 715b81a6-b447-44f1-8efa-fb2724ff7245
+langcode: zh-hans
 status: true
 dependencies:
   config:
     - views.view.news_views
   module:
-    - system
     - views
   theme:
     - primehorses
 id: views_block__news_views_block_1
 theme: primehorses
 region: banner
-weight: -11
+weight: -12
 provider: null
 plugin: 'views_block:news_views-block_1'
 settings:
@@ -22,9 +21,4 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
+visibility: {  }
