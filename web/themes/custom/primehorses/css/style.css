@@ -1125,13 +1125,13 @@ div#block-simplenewssubscription{
 #user-login-form input[type="text"],
 #user-login-form input[type="password"]{
     width: 31.6%;
-    color: #000;
-    background: none;
+    color: #FFF;
+    background: rgba(90, 165, 254, 0.50);
     outline: none;
     font-size: 1em;
     padding: .8em 1em;
     margin-bottom: 2em;
-    border: solid 1px #5f5f9a;
+    border: none;
     -webkit-appearance: none;
     display: inline-block;
 }
@@ -1141,7 +1141,7 @@ div#block-simplenewssubscription{
 .contact input[type="tel"],
 .contact input[type="password"]{
     width: 31.6%;
-    color: #000;
+    color: #FFF;
     background: rgba(90, 165, 254, 0.50);
     outline: none;
     font-size: 1em;
@@ -1161,7 +1161,7 @@ div#block-simplenewssubscription{
     resize: none;
     width: 100%;
     background:rgba(90, 165, 254, 0.50);
-    color: #000;
+    color: #FFF;
     font-size: 1em;
     outline: none;
     padding: .6em .8em;
@@ -1190,16 +1190,16 @@ div#block-simplenewssubscription{
 }
 
 ::-webkit-input-placeholder {
-	color:#000 !important;
+	color:#FFF !important;
 }
 :-moz-placeholder { /* Firefox 18- */
-	color:#000 !important;
+	color:#FFF !important;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-	color:#000 !important;
+	color:#FFF !important;
 }
 :-ms-input-placeholder {  
-	color:#000 !important;
+	color:#FFF !important;
 }
 /*--//contact--*/
 /*--map--*/
