@@ -1,0 +1,5 @@
+name: redirect_ph
+type: module
+description: redirect Prime Horses
+core: 8.x
+package: Custom

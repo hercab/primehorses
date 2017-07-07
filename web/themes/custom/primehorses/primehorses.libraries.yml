@@ -58,3 +58,9 @@ bootstrap:
     js/bootstrap.js: {}
   dependencies:
     - core/jquery
+
+font-awesome:
+  version: 4.7.0
+  css:
+    base:
+      css/font-awesome.css: {}

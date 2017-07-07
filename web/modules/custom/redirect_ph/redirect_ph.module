@@ -1,0 +1,54 @@
+<?php
+
+/**
+ * @file
+ * Contains redirect_user_login.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_help().
+ */
+function redirect_ph_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the redirect_user_login module.
+    case 'help.page.redirect_ph':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('redirect user after login and node after save') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function redirect_ph_form_user_login_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Alter login form and add own custom submit handler.
+  $form['#submit'][] = '_redirect_ph_form_submit';
+}
+
+/**
+ * Custom submit handler for login form.
+ */
+function _redirect_ph_form_submit($form, FormStateInterface $form_state) {
+  $form_state->setRedirect('<front>');
+}
+
+function redirect_ph_form_node_form_alter(&$form, FormStateInterface $form_state) {
+  foreach (array_keys($form['actions']) as $action) {
+    if ($action != 'preview' && isset($form['actions'][$action]['#type']) && $form['actions'][$action]['#type'] === 'submit') {
+      $form['actions'][$action]['#submit'][] = 'callback_submit';
+    }
+  }
+}
+
+
+function callback_submit($form, FormStateInterface $form_state) {
+  $form_state->setRedirect('<front>');
+}

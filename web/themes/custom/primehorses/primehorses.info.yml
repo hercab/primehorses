@@ -7,6 +7,7 @@ libraries:
   - primehorses/global-styling
   - primehorses/global-script
   - primehorses/bootstrap
+  - primehorses/font-awesome
 
 base theme: stable
 

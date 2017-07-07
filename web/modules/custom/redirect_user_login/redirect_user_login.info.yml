@@ -1,5 +1,0 @@
-name: redirect_user_login
-type: module
-description: redirect user after login
-core: 8.x
-package: development

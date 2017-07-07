@@ -75,11 +75,11 @@
 <article {{ attributes.addClass('node-article-full') }}>
 
   {{ title_prefix }}
-  {% if not page %}
+
     <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+     {{ label }}
     </h2>
-  {% endif %}
+
   {{ title_suffix }}
 
   {% if display_submitted %}

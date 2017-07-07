@@ -216,10 +216,13 @@ display:
             caption:
               alt: alt
               title: '0'
-            image_style: ''
+            image_style: medium
             thumbnail_style: ''
             media_switch: ''
             ratio: ''
+            box_style: ''
+            box_caption: ''
+            box_caption_custom: ''
             sizes: ''
             breakpoints:
               xs:

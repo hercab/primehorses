@@ -7,10 +7,8 @@ dependencies:
     - field.field.node.tiles.field_category
     - field.field.node.tiles.field_tile_full
     - field.field.node.tiles.field_tile_preview
-    - image.style.large
     - node.type.tiles
   module:
-    - image
     - imagefield_zoom
     - user
 id: node.tiles.full
@@ -23,19 +21,11 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_tile_full:
-    type: image
+    type: imagezoom_field_formatter
     weight: 1
     label: hidden
     settings:
       image_style: large
-      image_link: ''
-    third_party_settings: {  }
-  field_tile_preview:
-    type: imagezoom_field_formatter
-    weight: 0
-    label: hidden
-    settings:
-      image_style: medium
       image_zoom_style: mouseover
       image_touchscreen_compatible: '1'
       image_magnify: '2'
@@ -47,4 +37,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_category: true
+  field_tile_preview: true
   langcode: true

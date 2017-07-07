@@ -647,38 +647,31 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: categoria_1
+                title: 25X75
                 operator: '='
                 value:
                   value: '1'
                   min: ''
                   max: ''
               2:
-                title: categoria_2
+                title: 30x60
                 operator: '='
                 value:
                   value: '2'
                   min: ''
                   max: ''
               3:
-                title: categoria_3
+                title: 30x90
                 operator: '='
                 value:
                   value: '3'
                   min: ''
                   max: ''
               4:
-                title: categoria_4
+                title: 33x100
                 operator: '='
                 value:
                   value: '4'
-                  min: ''
-                  max: ''
-              5:
-                title: categoria_5
-                operator: '='
-                value:
-                  value: '5'
                   min: ''
                   max: ''
           entity_type: taxonomy_term
