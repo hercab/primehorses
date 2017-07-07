@@ -1,0 +1,21 @@
+uuid: bbd93750-0f77-470c-8dba-77a466b5e00f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_perfil
+    - node.type.testimony
+  module:
+    - options
+id: node.testimony.field_perfil
+field_name: field_perfil
+entity_type: node
+bundle: testimony
+label: Perfil
+description: 'Choose the perfil for you referring'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,44 @@
+uuid: 854d27c7-649d-4edf-bc45-ba7d072cde40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testimony.field_perfil
+    - field.field.node.testimony.field_photo
+    - field.field.node.testimony.field_text
+    - node.type.testimony
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.testimony.default
+targetEntityType: node
+bundle: testimony
+mode: default
+content:
+  field_perfil:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_photo:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_text:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden:
+  addtoany: true
+  langcode: true

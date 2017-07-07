@@ -1,0 +1,22 @@
+uuid: 6559bcff-955a-4bad-86e8-afe28a94de61
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - primehorses
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: primehorses_messages
+theme: primehorses
+region: '-1'
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

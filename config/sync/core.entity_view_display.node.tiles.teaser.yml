@@ -1,0 +1,25 @@
+uuid: a1126e41-ce6b-49d4-82b9-38ff91ee0d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tiles.field_category
+    - field.field.node.tiles.field_tile_full
+    - field.field.node.tiles.field_tile_preview
+    - node.type.tiles
+  module:
+    - user
+id: node.tiles.teaser
+targetEntityType: node
+bundle: tiles
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  addtoany: true
+  field_category: true
+  field_tile_full: true
+  field_tile_preview: true
+  langcode: true

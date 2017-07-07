@@ -1,0 +1,43 @@
+uuid: 06957381-6d95-4581-a2cb-9ded2d8c9282
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_gallery
+    - node.type.page
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  addtoany:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  field_gallery:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

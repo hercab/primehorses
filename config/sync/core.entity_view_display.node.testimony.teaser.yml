@@ -1,0 +1,25 @@
+uuid: 6eede2f6-4ce6-4d24-b8bf-e679ef8689c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimony.field_perfil
+    - field.field.node.testimony.field_photo
+    - field.field.node.testimony.field_text
+    - node.type.testimony
+  module:
+    - user
+id: node.testimony.teaser
+targetEntityType: node
+bundle: testimony
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  addtoany: true
+  field_perfil: true
+  field_photo: true
+  field_text: true
+  langcode: true

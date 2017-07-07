@@ -1,0 +1,27 @@
+uuid: ecbc6066-9917-45bf-8f71-e79e7e6109c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_perfil
+field_name: field_perfil
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: arquitect
+      label: Arquitect
+    -
+      value: minorist
+      label: Minorist
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

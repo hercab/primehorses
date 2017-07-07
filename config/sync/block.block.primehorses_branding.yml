@@ -1,0 +1,25 @@
+uuid: f76bfd59-0063-4820-a6d1-cbddf6f8af08
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - primehorses
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: primehorses_branding
+theme: primehorses
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

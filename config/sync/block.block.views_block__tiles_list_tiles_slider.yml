@@ -1,0 +1,24 @@
+uuid: 23f5a61d-59d8-4ce7-83f1-25c5412bc469
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tiles_list
+  module:
+    - views
+  theme:
+    - primehorses
+id: views_block__tiles_list_tiles_slider
+theme: primehorses
+region: products
+weight: 0
+provider: null
+plugin: 'views_block:tiles_list-tiles_slider'
+settings:
+  id: 'views_block:tiles_list-tiles_slider'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
