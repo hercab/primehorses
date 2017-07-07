@@ -497,6 +497,22 @@ article p{
 	-ms-transform: scale(1);
 }
 /*--//Slider part Ends Here --*/
+#block-primehorses-content h4.label{
+    color: #000;
+}
+.simplenews-confirm-add{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    padding: 45px 25px;
+
+}
+.simplenews-confirm-add p{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.simplenews-confirm-add .form-actions input.form-submit {
+    margin-top: 10px;
+}
+
 /*--//banner--*/
 /*--about--*/
 .about,.news-info,.services,.skills{

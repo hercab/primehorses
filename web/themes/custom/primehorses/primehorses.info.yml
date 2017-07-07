@@ -16,10 +16,11 @@ regions:
   header_right: 'Header Right'
   primary_menu: 'Primary menu'
   highlighted: Highlighted
+  content: Content
   banner: Banner
   about: About US
   services: Services
   products: Products
-  content: Content
+  news: News
   subcontent: Subcontent
   contact: Contact

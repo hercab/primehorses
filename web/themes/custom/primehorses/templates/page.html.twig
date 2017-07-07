@@ -74,17 +74,20 @@
   <div class="highlighted">
     <aside class="layout-container section clearfix" role="complementary">
       {{ page.highlighted }}
+      {{ page.content }}
     </aside>
   </div>
 {% endif %}
 <!--//header-->
 <!--banner-->
 <div class="banner">
-  <div class="container">
-    <div class="banner-text">
-      {{ page.banner }}
+
+    <div class="container">
+      <div class="banner-text">
+        {{ page.banner }}
+      </div>
     </div>
-  </div>
+
 </div>
 <!--about-->
 <div id="about" class="about">
@@ -112,7 +115,7 @@
 <div class="news" id="news">
   <div class="news-info">
     <div class="container">
-      {{ page.content }}
+      {{ page.news }}
     </div>
     </div>
 </div>
@@ -142,8 +145,8 @@
 
     </div>
     <div class="external-links col-md-4">
-      <img class="img-responsive" src="/{{ directory }}/images/wechat.jpeg" />
-      <div class="social-icons">
+      <div class="col-md-12"><img class="img-responsive" src="/{{ directory }}/images/wechat.jpeg" /></div>
+      <div class="social-icons col-md-12">
         <ul>
           <li><a href="https://www.facebook.com/horses.prime.5" class="fb"><i class="fa fa-facebook"></i> </a></li>
           <li><a href="https://www.instagram.com/primehorsesceramics/" class="drb"><i class="fa fa-instagram"></i> </a></li>

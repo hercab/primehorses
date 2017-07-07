@@ -10,8 +10,8 @@ dependencies:
     - primehorses
 id: views_block__news_views_block_2
 theme: primehorses
-region: content
-weight: -11
+region: news
+weight: -12
 provider: null
 plugin: 'views_block:news_views-block_2'
 settings:
