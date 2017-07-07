@@ -1,9 +1,0 @@
-uuid: 7da92b16-f4ea-432d-a2e7-d668ed75521f
-langcode: zh-hans
-status: true
-dependencies: {  }
-id: zh-hans
-label: Zh
-direction: ltr
-weight: 1
-locked: false

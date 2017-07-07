@@ -1,8 +1,0 @@
-uuid: 03795296-bfc8-4ac7-bc06-f1f772a69c85
-langcode: en
-status: true
-dependencies: {  }
-id: links_block
-label: 'links block'
-revision: 0
-description: ''

@@ -1,9 +1,0 @@
-uuid: f0daac60-f31e-42f8-8868-df12a5389f57
-langcode: en
-status: true
-dependencies: {  }
-name: 'Size Tiles'
-vid: products_category
-description: ''
-hierarchy: 0
-weight: 0
