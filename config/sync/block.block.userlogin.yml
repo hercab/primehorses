@@ -9,7 +9,7 @@ dependencies:
     - primehorses
 id: userlogin
 theme: primehorses
-region: '-1'
+region: header
 weight: 0
 provider: null
 plugin: user_login_block
