@@ -500,12 +500,14 @@ article p{
 #block-primehorses-content h4.label{
     color: #000;
 }
-.simplenews-confirm-add{
+.simplenews-confirm-add,
+.simplenews-subscriber-account-form.simplenews-subscriber-form{
     background: rgb(255, 255, 255) none repeat scroll 0 0;
     padding: 45px 25px;
 
 }
-.simplenews-confirm-add p{
+.simplenews-confirm-add p,
+.simplenews-subscriber-form .description{
     margin-bottom: 25px;
     margin-top: 25px;
 }
