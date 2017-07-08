@@ -1,6 +1,6 @@
 uuid: 6559bcff-955a-4bad-86e8-afe28a94de61
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: primehorses_messages
 theme: primehorses
-region: header
-weight: -4
+region: highlighted
+weight: -12
 provider: null
 plugin: system_messages_block
 settings:

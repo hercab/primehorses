@@ -70,20 +70,28 @@
       <div class="clearfix"> </div>
   </nav>
 </div>
-{% if page.highlighted %}
-  <div class="highlighted">
-    <aside class="layout-container section clearfix" role="complementary">
-      {{ page.highlighted }}
-      {{ page.content }}
-    </aside>
-  </div>
-{% endif %}
+
 <!--//header-->
 <!--banner-->
 <div class="banner">
 
     <div class="container">
+
       <div class="banner-text">
+        {% if page.highlighted %}
+          <div class="highlighted">
+            <aside class="layout-container section clearfix" role="complementary">
+              {{ page.highlighted }}
+            </aside>
+          </div>
+        {% endif %}
+        {% if page.content %}
+          <div class="system-content">
+            <aside class="layout-container section clearfix" role="main">
+              {{ page.content }}
+            </aside>
+          </div>
+        {% endif %}
         {{ page.banner }}
       </div>
     </div>
