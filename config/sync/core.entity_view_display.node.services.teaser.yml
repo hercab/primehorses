@@ -23,6 +23,7 @@ content:
     settings:
       trim_length: 250
     third_party_settings: {  }
+    region: content
   field_icon:
     type: image
     weight: 0
@@ -31,10 +32,12 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+    region: content
   links:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   addtoany: true
   langcode: true

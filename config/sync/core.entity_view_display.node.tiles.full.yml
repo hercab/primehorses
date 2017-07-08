@@ -20,6 +20,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_tile_full:
     type: imagezoom_field_formatter
     weight: 1
@@ -31,10 +32,12 @@ content:
       image_magnify: '2'
       image_fade_duration: '120'
     third_party_settings: {  }
+    region: content
   links:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   field_category: true
   field_tile_preview: true

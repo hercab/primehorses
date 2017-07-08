@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.simplenews_issue.body
+    - field.field.node.simplenews_issue.simplenews_issue
     - node.type.simplenews_issue
   module:
     - text
@@ -23,7 +24,9 @@ content:
       trim_length: 600
     third_party_settings: {  }
     label: hidden
+    region: content
 hidden:
   addtoany: true
   langcode: true
   links: true
+  simplenews_issue: true

@@ -22,6 +22,7 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
   field_tile_preview:
     weight: 102
     label: above
@@ -76,10 +77,12 @@ content:
       grid_small: 0
     third_party_settings: {  }
     type: blazy
+    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   addtoany: true
   field_tile_full: true

@@ -26,6 +26,7 @@ content:
       trim_length: 60
     third_party_settings: {  }
     label: hidden
+    region: content
   field_image:
     type: blazy
     weight: 0
@@ -80,10 +81,12 @@ content:
       grid_medium: 0
       grid_small: 0
     third_party_settings: {  }
+    region: content
   links:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   addtoany: true
   field_tags: true

@@ -68,10 +68,12 @@ content:
       grid_medium: 0
       grid_small: 0
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   addtoany: true
   langcode: true

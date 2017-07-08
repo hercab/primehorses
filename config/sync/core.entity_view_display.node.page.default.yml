@@ -21,12 +21,14 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
   body:
     label: hidden
     type: text_default
     weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_gallery:
     weight: 102
     label: above
@@ -35,9 +37,11 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
   links:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   langcode: true
