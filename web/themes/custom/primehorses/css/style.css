@@ -497,6 +497,11 @@ article p{
 	-ms-transform: scale(1);
 }
 /*--//Slider part Ends Here --*/
+#block-primehorses-content{
+    color: #FF0000;
+
+}
+
 #block-primehorses-content h4.label{
     color: #000;
 }
