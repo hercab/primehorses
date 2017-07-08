@@ -4,7 +4,7 @@ newsletter:
   priority: 0
   receipt: true
   from_address: info@primehorses.com
-  from_name: 'Prime Horses'
+  from_name: 湃马陶瓷
 subscriber:
   sync_fields: true
 subscription:

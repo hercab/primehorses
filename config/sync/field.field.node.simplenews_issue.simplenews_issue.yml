@@ -1,4 +1,4 @@
-uuid: f24bbfc4-8814-49b1-b057-35715429cdb7
+uuid: 269561ce-6eaa-4f06-a2d8-92015dba9988
 langcode: zh-hans
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: simplenews_issue
 label: Newsletter
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     target_id: default

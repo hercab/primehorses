@@ -1,17 +1,15 @@
-uuid: 3287e604-8203-4624-9bd6-8e7baed15234
-langcode: en
+uuid: d89e5cfd-9bd8-42c1-9da2-30b5267ea90f
+langcode: zh-hans
 status: true
 dependencies:
   module:
     - simplenews
-    - system
-    - user
   theme:
     - primehorses
 id: simplenewssubscription
 theme: primehorses
-region: subcontent
-weight: -9
+region: products
+weight: -11
 provider: null
 plugin: simplenews_subscription_block
 settings:
@@ -21,18 +19,6 @@ settings:
   label_display: '0'
   newsletters:
     default: default
-  message: 'Subscribe to our newsletter'
-  unique_id: d8a52385-6e50-4d87-96d8-d7ad45311b60
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: false
-    context_mapping: {  }
-  user_role:
-    id: user_role
-    roles:
-      anonymous: anonymous
-    negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'
+  message: 'subscribe to our newsletter.'
+  unique_id: 952168d1-f51e-41cf-947b-6b29c160ced7
+visibility: {  }

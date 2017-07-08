@@ -11,7 +11,7 @@ dependencies:
 id: views_block__tiles_list_tiles_slider
 theme: primehorses
 region: products
-weight: 0
+weight: -12
 provider: null
 plugin: 'views_block:tiles_list-tiles_slider'
 settings:

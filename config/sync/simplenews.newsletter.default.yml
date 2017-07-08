@@ -1,4 +1,4 @@
-uuid: ed947804-aae3-41c5-90b3-c6d1e89970d3
+uuid: 58adb89f-e6fa-4af0-a511-5b6a703a7390
 langcode: zh-hans
 status: true
 dependencies: {  }
@@ -10,7 +10,7 @@ description: 'This is an example newsletter. Change it.'
 format: plain
 priority: 0
 receipt: true
-from_name: 'Prime Horses'
+from_name: 湃马陶瓷
 subject: '[[simplenews-newsletter:name]] [node:title]'
 from_address: info@primehorses.com
 hyperlinks: false
