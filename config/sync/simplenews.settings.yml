@@ -24,11 +24,12 @@ subscription:
   confirm_subscribe_page: '<front>'
   confirm_unsubscribe_page: '<front>'
 mail:
-  use_cron: true
+  use_cron: false
   throttle: 20
   spool_progress_expiration: 3600
   spool_expire: 0
-  debug: false
+  debug: true
+  source_cache: null
 _core:
   default_config_hash: cy-hJPYCnfCsuUZA7VDoAwssKhRJCa8N88iJTaWiims
 langcode: zh-hans

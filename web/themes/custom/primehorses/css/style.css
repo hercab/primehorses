@@ -17,6 +17,9 @@ body a{
 	-ms-transition: 0.5s all;
 	text-decoration:none;
 }
+#cboxLoadedContent{
+    padding: 30px 10px;
+}
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Roboto Condensed', sans-serif;
@@ -497,26 +500,34 @@ article p{
 	-ms-transform: scale(1);
 }
 /*--//Slider part Ends Here --*/
-#block-primehorses-content{
-    color: #FF0000;
 
+.highlighted aside.layout-container div[role="contentinfo"]{
+    background-color: #d9edf7;
+    padding: 25px 0;
+}
+#block-primehorses-content article{
+    background-color: rgb(255, 255, 255);
+    padding: 45px 25px;
 }
 
 #block-primehorses-content h4.label{
     color: #000;
 }
 .simplenews-confirm-add,
+.simplenews-confirm-removal,
 .simplenews-subscriber-account-form.simplenews-subscriber-form{
-    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    background-color: rgb(255, 255, 255);
     padding: 45px 25px;
 
 }
 .simplenews-confirm-add p,
+.simplenews-confirm-removal p,
 .simplenews-subscriber-form .description{
     margin-bottom: 25px;
     margin-top: 25px;
 }
-.simplenews-confirm-add .form-actions input.form-submit {
+.simplenews-confirm-add .form-actions input.form-submit,
+.simplenews-confirm-removal .form-actions input.form-submit{
     margin-top: 10px;
 }
 
@@ -1160,6 +1171,7 @@ div#block-simplenewssubscription form{
 
 .contact-form {
     text-align: center;
+    color: #FFF;
 }
 .contact-form p {
     width: 60%;
@@ -1181,10 +1193,10 @@ div#block-simplenewssubscription form{
     display: inline-block;
 }
 
-.contact input[type="text"],
-.contact input[type="email"],
-.contact input[type="tel"],
-.contact input[type="password"]{
+#contact-message-feedback-form input[type="text"],
+#contact-message-feedback-form input[type="email"],
+#contact-message-feedback-form input[type="tel"],
+#contact-message-feedback-form input[type="password"]{
     width: 31.6%;
     color: #FFF;
     background: rgba(90, 165, 254, 0.50);
@@ -1199,10 +1211,10 @@ div#block-simplenewssubscription form{
 #contact-message-feedback-form input{
     float: left;
 }
-.contact  input.form-email {
+#contact-message-feedback-form  input.form-email {
     margin: 0 2em;
 }
-.contact textarea {
+#contact-message-feedback-form textarea {
     resize: none;
     width: 100%;
     background:rgba(90, 165, 254, 0.50);
@@ -1214,7 +1226,7 @@ div#block-simplenewssubscription form{
     min-height: 12em;
     -webkit-appearance: none;
 }
-.contact input[type="submit"] {
+#contact-message-feedback-form input[type="submit"] {
     outline: none;
     color: #fff;
     padding: 0.7em 5em;
@@ -1229,7 +1241,7 @@ div#block-simplenewssubscription form{
     -moz-transition: 0.5s all;
     float: none !important;
 }
-.contact  input[type="submit"]:hover {
+#contact-message-feedback-form  input[type="submit"]:hover {
     background: none;
     color: #74b9fe;
 }

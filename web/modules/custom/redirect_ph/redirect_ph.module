@@ -47,3 +47,8 @@ function redirect_ph_form_node_form_alter(&$form, FormStateInterface $form_state
     }
   }
 }
+
+/* Custom alter ng-lightbox
+function redirect_ph_ng_lightbox_ajax_path_alter(&$vars){
+  var_dump($vars);
+}*/

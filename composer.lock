@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a74adeb0949987346eccb6360dc1de37",
+    "content-hash": "cfac2b693ab51264cff1856312dd6a56",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1097,7 +1097,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/addtoany-8.x-1.8.zip",
-                "reference": null,
+                "reference": "8.x-1.8",
                 "shasum": "fc3fc0193cb2fd434c0d4112f99287b72f233a41"
             },
             "require": {
@@ -1389,7 +1389,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/blazy-8.x-1.0-rc2.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc2",
                 "shasum": "242f3022b039c6fd3b98f6ce1955d295119b4b5a"
             },
             "require": {
@@ -1444,7 +1444,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/colorbox-8.x-1.4.zip",
-                "reference": null,
+                "reference": "8.x-1.4",
                 "shasum": "bf163fd2d28450c1324512ad7e6a72fc48d274e3"
             },
             "require": {
@@ -1891,7 +1891,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/contact_block-8.x-1.4.zip",
-                "reference": null,
+                "reference": "8.x-1.4",
                 "shasum": "0e10326e33c02f821c0f20885a3662f8c3e34c64"
             },
             "require": {
@@ -2085,6 +2085,11 @@
                 "symfony/css-selector": "~2.8"
             },
             "type": "drupal-core",
+            "extra": {
+                "patches_applied": {
+                    "'Links' field not displaying on custom view modes": "https://www.drupal.org/files/issues/links_field_not-2662898-12.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Core\\": "lib/Drupal/Core",
@@ -2233,7 +2238,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/image_widget_crop-8.x-2.0.zip",
-                "reference": null,
+                "reference": "8.x-2.0",
                 "shasum": "2c8e13e0c73d95a3f8dde5392da2ef20c3d17faa"
             },
             "require": {
@@ -2501,7 +2506,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/slick-8.x-1.0.zip",
-                "reference": null,
+                "reference": "8.x-1.0",
                 "shasum": "14ae69943a07749163ed13900dcd0a6809c54ebd"
             },
             "require": {

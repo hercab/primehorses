@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.simplenews_issue
     - image.style.thumbnail
     - node.type.article
   module:
@@ -66,6 +67,12 @@ content:
       display_label: true
     weight: 15
     third_party_settings: {  }
+    region: content
+  simplenews_issue:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   sticky:
     type: boolean_checkbox

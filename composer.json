@@ -97,6 +97,11 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "'Links' field not displaying on custom view modes": "https://www.drupal.org/files/issues/links_field_not-2662898-12.patch"
+            }
+        }
     }
 }

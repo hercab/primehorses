@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Testimony
 type: testimony
-description: ''
+description: 'Use Testimony to reference comments from your Clients and Partners'
 help: ''
 new_revision: false
 preview_mode: 1
