@@ -18,26 +18,26 @@ mode: full
 content:
   addtoany:
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_tile_full:
     type: imagezoom_field_formatter
     weight: 1
     label: hidden
     settings:
-      image_style: large
+      image_style: ''
       image_zoom_style: mouseover
-      image_touchscreen_compatible: '1'
-      image_magnify: '2'
-      image_fade_duration: '120'
+      image_touchscreen_compatible: true
+      image_magnify: 1
+      image_fade_duration: 120
     third_party_settings: {  }
     region: content
   links:
     weight: 3
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   field_category: true
   field_tile_preview: true

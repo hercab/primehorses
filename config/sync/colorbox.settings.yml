@@ -13,8 +13,8 @@ custom:
   initialwidth: '300'
   initialheight: '250'
   overlayclose: true
-  returnfocus: null
-  fixed: true
+  returnfocus: false
+  fixed: false
   scrolling: true
   slideshow:
     slideshow: 1
