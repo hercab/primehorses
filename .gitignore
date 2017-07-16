@@ -24,7 +24,7 @@
 /web/sites/primehorses.dd/
 
 # Ignore temporal folder
-/tmp/
+/tmp/*
 
 # Ignore .sql files
 /backup/*.sql
