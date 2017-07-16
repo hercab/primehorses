@@ -25,3 +25,6 @@
 
 # Ignore temporal folder
 /tmp/
+
+# Ignore .sql files
+/backup/*.sql
