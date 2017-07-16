@@ -1235,7 +1235,7 @@ div#block-simplenewssubscription form{
 #contact-message-feedback-form input[type="submit"] {
     outline: none;
     color: #fff;
-    padding: 0.7em 5em;
+    padding: 0.7em 1em;
     font-size: 1.1em;
     margin: 3em 0 0 0;
     -webkit-appearance: none;

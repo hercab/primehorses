@@ -187,6 +187,7 @@ function primehorses_form_search_block_form_alter(&$form, &$form_state) {
 function primehorses_form_contact_message_feedback_form_alter (&$form, &$form_state){
   $form['name']['#attributes']['placeholder'][] = t('Name');
   $form['mail']['#attributes']['placeholder'][] = t('Email');
+  $form['actions']['preview']['#access'] = FALSE;
 
 }
 function primehorses_form_user_login_form_alter (&$form, &$form_state){
