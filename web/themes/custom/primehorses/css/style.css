@@ -925,10 +925,16 @@ h2.resp-accordion {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.image-zoom-container{
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 50px;
+.original-image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+#colorbox article.node-tiles-full{
+    margin: 0;
+}
+.image-zoom-container .image-zoom{
+    display: block;
 }
 .addtoany-container{
    clear: both;

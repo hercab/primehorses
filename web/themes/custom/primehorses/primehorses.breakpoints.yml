@@ -1,6 +1,40 @@
-primehorses.narrow:
-  label: narrow
-  mediaQuery: 'all and (min-width: 560px) and (max-width: 850px)'
-  weight: 1
+all:
+  label: All
+  mediaQuery: 'only screen and (min-width: 0)'
+  weight: 0
+  group: primehorses
   multipliers:
     - 1x
+    - 2x
+xs:
+  label: Extra Small
+  mediaQuery: 'only screen and (min-width: 480px)'
+  weight: 1
+  group: primehorses
+  multipliers:
+    - 1x
+    - 2x
+sm:
+  label: Small
+  mediaQuery: 'only screen and (min-width: 768px)'
+  weight: 2
+  group: primehorses
+  multipliers:
+    - 1x
+    - 2x
+md:
+  label: Medium
+  mediaQuery: 'only screen and (min-width: 992px)'
+  weight: 3
+  group: primehorses
+  multipliers:
+    - 1x
+    - 2x
+lg:
+  label: Large
+  mediaQuery: 'only screen and (min-width: 1200px)'
+  weight: 4
+  group: primehorses
+  multipliers:
+    - 1x
+    - 2x

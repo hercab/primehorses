@@ -8,6 +8,7 @@ libraries:
   - primehorses/global-script
   - primehorses/bootstrap
   - primehorses/font-awesome
+  - primehorses/primehorses-imgZoom
 
 base theme: stable
 

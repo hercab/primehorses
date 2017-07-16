@@ -64,3 +64,19 @@ font-awesome:
   css:
     base:
       css/font-awesome.css: {}
+
+primehorses-breakpoint:
+  version: 1.0
+  js:
+    js/primehorses.breakpoint.js: {}
+  dependencies:
+    - core/jquery
+    - core/underscore
+    - core/matchmedia
+
+primehorses-imgZoom:
+  version: 1.0
+  js:
+    js/ph.img.zoom.js: {}
+  dependencies:
+    - primehorses/primehorses-breakpoint

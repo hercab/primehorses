@@ -4,6 +4,8 @@
 
 (function ($, Drupal) {
 
+    'use strict';
+
     Drupal.behaviors.colorboxSlick = {
         attach: function (context, settings) {
            /** $(context).find('#slick-node-125-gallery-full-1-slider').once('myCustomBehavior').each(function () {
