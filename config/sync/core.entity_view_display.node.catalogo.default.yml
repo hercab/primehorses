@@ -1,0 +1,43 @@
+uuid: a8ef00c7-6654-4b1d-8aac-5f3f6e3c822c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.catalogo.body
+    - field.field.node.catalogo.field_catalogo
+    - node.type.catalogo
+  module:
+    - file
+    - text
+    - user
+id: node.catalogo.default
+targetEntityType: node
+bundle: catalogo
+mode: default
+content:
+  addtoany:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_catalogo:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

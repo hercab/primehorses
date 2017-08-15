@@ -191,7 +191,8 @@ nav.navbar.navbar-default {
     -webkit-backface-visibility: hidden;
 }
 #block-languageswitcher{
-    float: right;
+   display: inline-block;
+    margin-left: 40px;
 }
 #block-languageswitcher ul.links li {
     display: inline-block;
@@ -378,7 +379,7 @@ article p{
     text-align: justify;
 }
 #colorbox article{
-   margin: 30px;
+   margin: 0 20px;
 }
 
 
@@ -1608,6 +1609,7 @@ nav#block-primehorses-main-menu {
     z-index: 9999;
     text-align: center;
 }
+
 ul.nav.navbar-right {
     text-align: center;
 }

@@ -1,0 +1,44 @@
+uuid: c032470a-4c37-4ae1-a9f7-e5e160aee8e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.catalogo.body
+    - field.field.node.catalogo.field_catalogo
+    - node.type.catalogo
+  module:
+    - file
+    - text
+    - user
+id: node.catalogo.teaser
+targetEntityType: node
+bundle: catalogo
+mode: teaser
+content:
+  addtoany:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_catalogo:
+    type: file_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
